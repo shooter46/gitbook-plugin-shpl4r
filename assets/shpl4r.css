@@ -1,3 +1,12 @@
 .arg-block {
-	display: block;
+	display:block;
+    margin-left: 15px;
+}
+
+.arg-type {
+	font-weight: 600;
+}
+
+.arg-desc{
+	margin-left: 15px;
 }
