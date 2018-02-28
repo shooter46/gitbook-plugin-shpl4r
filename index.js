@@ -33,8 +33,13 @@ module.exports = {
     }
   },
   filters: {
-	warning: function(name, name2) {
-      return 'Hello '+name+' '+name2;
-    }
+	warning: function(firstName, lastName, kwargs) {
+	  var name = firstName + ' ' + lastName;
+
+	  if (kwargs.man) name = "Mr" + name;
+	  else name = "Mrs" + name;
+
+	  return name;
+	}
   }
 };
