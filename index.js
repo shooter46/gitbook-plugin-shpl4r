@@ -31,5 +31,10 @@ module.exports = {
             });
       }
     }
+  },
+  filters: {
+	warning: function(name) {
+      return 'Hello '+name;
+    }
   }
 };
