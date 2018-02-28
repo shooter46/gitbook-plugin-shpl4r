@@ -33,8 +33,8 @@ module.exports = {
     }
   },
   filters: {
-	warning: function(name) {
-      return 'Hello '+name;
+	warning: function(name, name2) {
+      return 'Hello '+name+' '+name2;
     }
   }
 };
