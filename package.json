@@ -1,0 +1,19 @@
+{
+  "name": "gitbook-plugin-shpl4r",
+  "description": "",
+  "main": "index.js",
+  "license": "",
+  "homepage": "",
+  "version": "0.0.1",
+  "engines": {
+    "gitbook": ">2.5.0"
+  },
+  "author": {
+    "name": "SHooTeR",
+    "email": "shooter-rus-46@yandex.ru"
+  },
+  "gitbook": {
+    "properties": {
+    }
+  }
+}
